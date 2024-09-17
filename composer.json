@@ -1,0 +1,27 @@
+{
+    "name": "osama/payment-gateway",
+    "description": "A payment gateway package for Laravel",
+    "type": "library",
+    "require": {
+        "#": "no"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Osama\\PaymentGateway\\": "src/"
+        }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Osama\\PaymentGateway\\PaymentGatewayServiceProvider"
+            ]
+        }
+    }
+    "authors": [
+        {
+            "name": "Osama Maher"
+        }
+    ],
+    "minimum-stability": "stable"
+}
