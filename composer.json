@@ -2,9 +2,7 @@
     "name": "osamamaher/payment-gateway",
     "description": "A payment gateway package for Laravel",
     "type": "library",
-    "require": {
-        "#": "no"
-    },
+ 
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -23,5 +21,6 @@
             "name": "Osama Maher"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+	"require": {},
 }
