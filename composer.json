@@ -17,7 +17,7 @@
                 "Osama\\PaymentGateway\\PaymentGatewayServiceProvider"
             ]
         }
-    }
+    },
     "authors": [
         {
             "name": "Osama Maher"
